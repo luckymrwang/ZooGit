@@ -1,0 +1,100 @@
+body{margin:0;padding:0;font-size:12px; font-family:Arial, Helvetica, sans-serif,Simsun; background: #970007}
+form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;list-style:none;}
+img{border:0px;}
+.cl{ clear:both;}
+.fl_l{float:left;} .fl_r{float:right;}
+.hidden{display:block; overflow:hidden; height:0;}
+a{text-decoration:none;blr:expression(this.onFocus=this.blur()); outline:none}
+a:hover{color:#F60;text-decoration:none;}
+.clearfix:after{content:"&nbsp;";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*display:inline-block;}
+.bro a:link,.bro a:visited {color:#624200;text-decoration:none}
+.bro a:active,.bro a:hover { color:#624200 ;text-decoration:none}
+.wht a:link,.wht a:visited {color:#fff;text-decoration:none}
+.wht a:active,.wht a:hover { color:#fff ;text-decoration:none}
+.cent{width:640px; margin:0 auto; position:relative; }
+#Wrap{ width:640px; float:left; background:url(img_1.jpg) no-repeat center -40px #970007;  }
+#Wrap2{ width:640px; float:left; background:url(img_2.jpg) no-repeat center -40px #970007;min-height: 1139px;}
+#Wrap_r{ width:640px; float:left;  background:url(img_19.jpg) no-repeat;}
+.cont{ width:622px; float:left; margin-top:363px; margin-left:9px; margin-right:9px;}
+.pic{ width:622px; height:198px; margin-bottom:14px; position:relative;}
+.pic_n{ width:100%; height:100%;  margin-bottom:14px; position:absolute; top:0; z-index:100;}
+.pic_s{ width:100%; height:100%;  margin-bottom:14px; position:absolute; top:0; z-index:1;}
+.ggk_wz{ width:542px; height:100px; margin: 0 auto; line-height:48px; font-size:24px; color:#ffeed2; text-align:center;}
+.c_btn{ width:163px; height:58px; float:right; margin-right:30px;}
+.prize{ width:571px; height:110px; margin:0 auto;}
+.prize li{float:left; width:25%; text-align: center;}
+.prize li img{}
+.award-winner{ width:556px; height:40px; background:rgba(0,0,0,0.5); margin:0 auto; border-radius:10px; color: #ffffff; text-align: center; line-height: 40px; font-size:24px;}
+.award-winner ul{list-style:outside none none;height:40px;overflow:hidden;margin:0;}
+.award-winner ul li{height:35px;}
+.award-winner ul li a{text-decoration:none;}
+.gz{ width:542px; height:121px; margin: 0 auto}
+.gz a{ width:225px; float:left; height:121px;}
+.friend{ background:url(img_8.png) no-repeat center center; margin-left:30px; margin-right:35px;}
+.now{ background:url(img_9.png) no-repeat center center;}
+.down{ width:249px; height:101px; float:left; margin:20px 197px 4px 191px;}
+.down a{ width:249px; height:101px; float:left; background:url(img_2.png) no-repeat;}
+
+.gont{ width:545px; float:left; margin-top:404px; margin-left:55px;}
+.g_cont{ width:545px; float:left; max-height: 430px; overflow-y:auto;}
+.g_cont li{ width:158px; height:116px; border-radius:10px; float:left; margin-right:16px; margin-bottom:29px; background:url(pai1.png) no-repeat center; font-size: 16px; text-align: center;}
+
+.collect{ background:url(img_8.png) no-repeat; margin-left:30px; margin-right:35px;}
+.Lottery{ background:url(img_14.png) no-repeat;}
+.rule{background:#0057a8;padding:5%;color:#fff;font-size:16px;line-height:38px;display:none;}
+.rule p{font-weight:bold;}
+.btn_rule{ width:50px; height:50px; float:left; background:#006;}
+.show-icon,.hide-icon{position:absolute;top:-120px;right:2%;width:10%;cursor:pointer;}.show-icon img,.hide-icon img{width:100%;}
+
+.tip_cont{ width:500px; height:363px; position:absolute; top:325px; left:88px; background:url(img_3.png) no-repeat;}
+.tip_cont .tit{width:500px; height:90px; float:left;}
+.tip_cont .tit h2{ width:147px; height:55px; float:left; margin-left:175px;}
+.tip_cont .tit span{ width:59px; height:57px; float:right; margin-top:29px;}
+.tip_cont p{ width:420px; float:left; font-size:28px; margin-left:40px; margin-top:20px; color:#fff; font-weight:bold; text-align:center; line-height:44px;}
+.know{ width:196px; height:80px; float:left; margin-left:144px; margin-top:20px;}
+.know a{ width:196px; height:80px; float:left; background:url(img_5.png) no-repeat;}
+.aw_1{ width:182px; height:101px; float:left; margin-left:148px; margin-top:-10px;}
+.aw_2{ width:154px; height:108px; float:left; margin-left:163px; margin-top:-10px;}
+
+.tip_cont .tit_2 h2{ width:147px; height:55px; float:left; margin-left:150px;}
+.register{ width:404px; height:59px; float:left; margin-top:13px; margin-left:40px;}
+.register input{height:59px;font-family:\5FAE\8F6F\96C5\9ED1;}
+.input{font-size:1.2rem;border:none;background:#FFF;padding:0 5%;border-radius:30px 0 0 30px;float:left;width:60%;/*box-shadow:inset -3px 3px 5px #999;*/box-shadow:inset -3px 3px 5px rgba(0,0,0,.3);}.button{border:none;cursor:pointer;float:left;width:30%;border-radius:0 30px 30px 0;text-align:center;color:#FFF;/*background:#ff4500;*/background:-webkit-gradient(linear, left top, left bottom, from(#ff4500), to(#b21100));background:-moz-linear-gradient(top,#ff4500,#b21100);
+font-size:1.8rem;font-weight:bold;text-shadow:2px 0 rgba(0,0,0,.7);}
+
+.get_span{ width:400px; height:44px; float:left; line-height:44px; text-align:center; color:#fff; font-size:20px; font-weight:bold;}
+.get{ width:542px; float:left; height:60px;}
+.get a{ width:148px; float:left; height:60px;}
+.sure{ background:url(img_26.png) no-repeat; margin-left:30px; margin-right:35px;}
+.remove{ background:url(img_27.png) no-repeat;}
+
+.pic_i{width: 65%;height: 105px; margin: 0 auto; margin-top: 50px; font-family:'微软雅黑'}
+.pic_i img{ width: 105px;  float:left;}
+.pic_i p{float: left; width: 70%;height:40px;text-align: center;font-size: 24px;line-height: 40px; color:#e70008; }
+.pic_i h2{float: left; width: 70%;height:65px;text-align: center;font-size: 30px;line-height: 55px; color:#e70008;}
+
+/*视频*/
+a.close,.close-btn{width:72px;height:72px;position:absolute;right:0;background-position:0 -29px;top:-34px;cursor:pointer;}
+.close-btn{width:72px; height:72px; float:left; position:absolute; right:-80px; top:-5px; background:url(img_20.jpg) no-repeat;}
+.popbox{width:600px;height:338px;border:5px #545454 solid;background:#000000;position:absolute;top:0;left:0;display:none;z-index:120;}
+#screen{width:640px; height:1064px; position:absolute; top:0; left:0;}
+.menban{ width:100%; height:100%; position:fixed; top:0; left:0;z-index:1000;}
+.menban a{ width:640px; height:1064px; position:absolute; top:0; left:0;}
+a.close-btn:hover,a.close-btn{color:#FFF;}
+.footer-fm a{padding:0 5px;}
+
+/*.rule.alt{height: auto;padding: 36vx 28vx;}
+.btn_rule{top:150vx;width:72vx;height: 72vx;right: 20vx;z-index: 3;position: absolute;background-image: <@15500.png>;background-size: 100% 200%;-webkit-background-size: 100% 200%;}
+.btn_rule.alt{top: 50vx;background-position: bottom;}.btn_rule:before{content: "";background: #1e65f5;width: 2vx;left: 0;right: 0;margin: 0 auto;bottom: 100%;height: 150vx;pointer-events: none;display: block;position: absolute;}
+.part1{height: 850vx;position: relative;z-index: 2;background-color: #AD240A;background-image: <@15506.jpg>;background-position: top;background-size: 100% 651vx;-webkit-background-size: 100% 651vx;}.part1:after{content: "";display: block;position: absolute;top: 100%;left: 0;right: 0;height: 64vx;background-image: <@15507.png>;background-size: 100% 100%;-webkit-background-size: 100% 100%;}
+.part1>*{position: absolute;left: 0;right: 0;bottom: 0;text-align: center;}*/
+
+.information{display:none;position:fixed; width: 80%; height: 363px; background:#fff; top:30%;left:10%;z-index: 10000; border-radius:10px;}
+.information .closed{width: 60px; height: 60px; position:absolute; right:0;top: 0; font-size: 24px; text-align: center; line-height: 60px;}
+.information .closed a{color: #ff0000;}
+.information h2{ height: 60px; line-height: 60px; text-align: center; color: #0057a8; font-size: 24px; margin-top: 10px; border-bottom: 1px solid #0057a8;}
+.information li{ width:90%; margin: 0 auto; height: 80px; font-size: 24px; line-height: 80px; text-align: center;}
+.information li input{ width:50%; height: 50px; vertical-align:middle;font-size: 24px;}
+.information p{line-height:30px; font-size: 24px; color: #ff0000; width: 80%; margin: 0 auto;}
+.information button{ background:url(button.png) no-repeat center; width: 120px; height: 50px; font-size: 24px; text-align: center; line-height: 35px; color: #000; margin-left:40%; border: 0; margin-top: 10px; }
